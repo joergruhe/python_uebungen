@@ -6,3 +6,6 @@ class testMeineKLaase(unittest.TestCase):
 
     def test_initial_value(self):
         self.assertEqual(self.obj.x, 100)
+    def test_set_value(self):
+        self.obj.x = 250
+        self.assertEqual(self.obj.x, 250)
