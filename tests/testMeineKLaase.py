@@ -9,3 +9,6 @@ class testMeineKLaase(unittest.TestCase):
     def test_set_value(self):
         self.obj.x = 250
         self.assertEqual(self.obj.x, 250)
+
+if __name__ == '__main__':
+    unittest.main()

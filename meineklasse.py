@@ -25,3 +25,5 @@ else:
     print(test_instance.x)
     test_instance.x = 200
     print(test_instance.x)
+    msg = 'Test Msg'
+    print(msg)
